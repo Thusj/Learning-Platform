@@ -1,4 +1,2 @@
-# IS-202-Servlet
-A Java-project that is supposed to replicate educational systems like Fronter and Canvas. We are working on the basic functionality on this throughout the semester, so it might not have the greatest interface. 
-
-//Malware
+# Learning Platform
+This was a group Java project assigned in the course IS-202 at the University of Agder, and this is a continuation of that project
