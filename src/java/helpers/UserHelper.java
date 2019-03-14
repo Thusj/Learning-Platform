@@ -275,6 +275,7 @@ public class UserHelper {
                 out.println("<div>Username:" + user_username + "</div>");
                 out.println("<div>First name:" + user_fname + "</div>");
                 out.println("<div>Last name:" + user_lname + "</div>");
+                                
                 out.println("</div>");
                 
                 //"more info"-button
