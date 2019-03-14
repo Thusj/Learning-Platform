@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-<!--Datasource for my computer (edvin)-->
-<!--
+<!--Datasource for my computer (tobias)-->
+
 <Context path="/WEB">
 	<Resource name="jdbc/localhostDS" type="javax.sql.DataSource" auth="Container" 
-            username="root" password="admin" driverClassName="com.mysql.jdbc.Driver"
-            url="jdbc:mysql://localhost:3306/malware">
+            username="root" password="kaktus123" driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://127.0.0.1:3306/learningplatform">
 	</Resource>			  
 
  <Realm className="org.apache.catalina.realm.DataSourceRealm" 
          dataSourceName="jdbc/localhostDS" localDataSource="true"
-         userTable="users"  userNameCol="user_name" userCredCol="user_password"
+         userTable="users"  userNameCol="user_username" userCredCol="user_password"
          userRoleTable="users" roleNameCol="user_role" />                 	  
 </Context>
--->
 
 
 <!--Datasource for remote Digitalocean server-->
+<!--
 <Context path="/WEB">
 	<Resource name="jdbc/localhostDS" type="javax.sql.DataSource" auth="Container" 
             username="master" password="admin" driverClassName="com.mysql.jdbc.Driver"
@@ -29,3 +29,4 @@
          userTable="users"  userNameCol="user_username" userCredCol="user_password"
          userRoleTable="users" roleNameCol="user_role" />                 	  
 </Context>
+-->
