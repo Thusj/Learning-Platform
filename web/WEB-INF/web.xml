@@ -18,8 +18,10 @@
     <!-- A security constraint is a limit on what the users can do. 
           The constraint is enforced by tomcat, no programming is needed
           All necessary info is in this file -->
-    <security-constraint>
+    
+    <security-constraint> 
         <!--  to access these pages  -->
+        
         <web-resource-collection>
             <web-resource-name>UserResources</web-resource-name>
             <url-pattern>/About</url-pattern>
@@ -47,8 +49,9 @@
             <url-pattern>/Student</url-pattern>
             <url-pattern>/updateModule</url-pattern>
             <url-pattern>/UploadFile</url-pattern>
-        </web-resource-collection>
+        </web-resource-collection> 
         <!--  the user must have one of these roles  -->
+        
         <auth-constraint>
             <role-name>Admin</role-name>
             <role-name>Student</role-name>
